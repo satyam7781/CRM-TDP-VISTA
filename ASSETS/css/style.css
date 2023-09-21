@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ .landing
+ {
+  height: 100vh;
+   background-image: url('../image/graph-growth-success-strategy-marketing-computer-concept.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center ;
+   display :flex;
+   align-items:center;
+   justify-content: center;
+   flex-direction: column;
+ 
+ }
+ .landingbox
+ {
+  text-align: center;
+  color: #fff;
+  width: 60%;
+  z-index: 10;
+ 
+
+ }
+
+ .landingbox h1{
+  text-decoration: underline;
+  
+}
+ .backdrop
+ {
+ background-color:#0008 ;
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+
+
+ }
+ .landing_buttons{
+  display: inline-flex;
+  justify-content:center;
+  text-decoration: none;
+
+}
+.btn1{
+  background-color:rgb(251, 249, 255);
+  color: black;
+  border-radius: 100px 0px 0px 100px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border: 1px solid rgb(10, 10, 221);
+ 
+}   
+.btn2{
+  background-color:black;
+  color:white;
+  border-radius: 0px 100px 100px 0px;
+
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+ border : 1px solid rgb(11, 22, 235);
+}   
